@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>画廊</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <!--<script type="text/javascript" src="lib/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="images/data.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>-->
+</head>
+<body onSelectStart="return  false">
+<div class="wrap">
+<div class="photo  photo-front "  id="photo-{{index}}">
+    <div class="photo-wrap">
+        <div class="side side-front">
+            <p class="image"><img src="images/{{image}}" alt=""/></p>
+            <p class="capital">{{capital}}</p>
+        </div>
+        <div class="side side-back">
+            <P class="desc">{{desc}}</P>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="lib/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="images/data.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
